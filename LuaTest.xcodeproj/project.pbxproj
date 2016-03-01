@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18499C4D1C59B75D004E340A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18499C4C1C59B75D004E340A /* main.m */; };
+		18499C501C59B75D004E340A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18499C4F1C59B75D004E340A /* AppDelegate.m */; };
+		18499C531C59B75D004E340A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18499C521C59B75D004E340A /* ViewController.m */; };
+		18499C561C59B75D004E340A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18499C541C59B75D004E340A /* Main.storyboard */; };
+		18499C581C59B75D004E340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18499C571C59B75D004E340A /* Assets.xcassets */; };
+		18499C5B1C59B75D004E340A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18499C591C59B75D004E340A /* LaunchScreen.storyboard */; };
+		18499C741C59F359004E340A /* LuaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18499C6E1C59F359004E340A /* LuaManager.m */; };
+		18499C761C59F359004E340A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18499C711C59F359004E340A /* Person.m */; };
+		18499C7B1C59F61F004E340A /* foo.lua in Resources */ = {isa = PBXBuildFile; fileRef = 18499C781C59F61F004E340A /* foo.lua */; };
+		18499C7C1C59F61F004E340A /* foo1.lua in Resources */ = {isa = PBXBuildFile; fileRef = 18499C791C59F61F004E340A /* foo1.lua */; };
+		18499C7D1C59F61F004E340A /* out.lua in Resources */ = {isa = PBXBuildFile; fileRef = 18499C7A1C59F61F004E340A /* out.lua */; };
+		18499C7F1C5A18FF004E340A /* luac.out in Resources */ = {isa = PBXBuildFile; fileRef = 18499C7E1C5A18FF004E340A /* luac.out */; };
+		9A46756D46F915A3547DDFF4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1732A81970A7C4E1049BB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18499C481C59B75D004E340A /* LuaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18499C4C1C59B75D004E340A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18499C4E1C59B75D004E340A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18499C4F1C59B75D004E340A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18499C511C59B75D004E340A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18499C521C59B75D004E340A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18499C551C59B75D004E340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18499C571C59B75D004E340A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18499C5A1C59B75D004E340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18499C5C1C59B75D004E340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18499C6D1C59F359004E340A /* LuaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaManager.h; sourceTree = "<group>"; };
+		18499C6E1C59F359004E340A /* LuaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaManager.m; sourceTree = "<group>"; };
+		18499C701C59F359004E340A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18499C711C59F359004E340A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18499C781C59F61F004E340A /* foo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foo.lua; sourceTree = "<group>"; };
+		18499C791C59F61F004E340A /* foo1.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foo1.lua; sourceTree = "<group>"; };
+		18499C7A1C59F61F004E340A /* out.lua */ = {isa = PBXFileReference; lastKnownFileType = file; path = out.lua; sourceTree = "<group>"; };
+		18499C7E1C5A18FF004E340A /* luac.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = luac.out; sourceTree = "<group>"; };
+		7816D5CAA0BC4CEB9587D387 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF13DDAEFBD45D3912A248FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA1732A81970A7C4E1049BB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18499C451C59B75D004E340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A46756D46F915A3547DDFF4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18499C3F1C59B75D004E340A = {
+			isa = PBXGroup;
+			children = (
+				18499C4A1C59B75D004E340A /* LuaTest */,
+				18499C491C59B75D004E340A /* Products */,
+				18F4CE2C6F599747E16F007E /* Pods */,
+				9854562CA0BFDD73587434EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18499C491C59B75D004E340A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18499C481C59B75D004E340A /* LuaTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18499C4A1C59B75D004E340A /* LuaTest */ = {
+			isa = PBXGroup;
+			children = (
+				18499C771C59F60C004E340A /* lua */,
+				18499C6D1C59F359004E340A /* LuaManager.h */,
+				18499C6E1C59F359004E340A /* LuaManager.m */,
+				18499C701C59F359004E340A /* Person.h */,
+				18499C711C59F359004E340A /* Person.m */,
+				18499C4E1C59B75D004E340A /* AppDelegate.h */,
+				18499C4F1C59B75D004E340A /* AppDelegate.m */,
+				18499C511C59B75D004E340A /* ViewController.h */,
+				18499C521C59B75D004E340A /* ViewController.m */,
+				18499C541C59B75D004E340A /* Main.storyboard */,
+				18499C571C59B75D004E340A /* Assets.xcassets */,
+				18499C591C59B75D004E340A /* LaunchScreen.storyboard */,
+				18499C5C1C59B75D004E340A /* Info.plist */,
+				18499C4B1C59B75D004E340A /* Supporting Files */,
+			);
+			path = LuaTest;
+			sourceTree = "<group>";
+		};
+		18499C4B1C59B75D004E340A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18499C4C1C59B75D004E340A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18499C771C59F60C004E340A /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				18499C7E1C5A18FF004E340A /* luac.out */,
+				18499C781C59F61F004E340A /* foo.lua */,
+				18499C791C59F61F004E340A /* foo1.lua */,
+				18499C7A1C59F61F004E340A /* out.lua */,
+			);
+			path = lua;
+			sourceTree = "<group>";
+		};
+		18F4CE2C6F599747E16F007E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF13DDAEFBD45D3912A248FC /* Pods.debug.xcconfig */,
+				7816D5CAA0BC4CEB9587D387 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9854562CA0BFDD73587434EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1732A81970A7C4E1049BB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18499C471C59B75D004E340A /* LuaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18499C5F1C59B75D004E340A /* Build configuration list for PBXNativeTarget "LuaTest" */;
+			buildPhases = (
+				37BF6A424B104829D9E952DC /* Check Pods Manifest.lock */,
+				18499C441C59B75D004E340A /* Sources */,
+				18499C451C59B75D004E340A /* Frameworks */,
+				18499C461C59B75D004E340A /* Resources */,
+				41693AF1477785163E779DB0 /* Embed Pods Frameworks */,
+				11B7C9DC9EE45E6E5045E55D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaTest;
+			productName = LuaTest;
+			productReference = 18499C481C59B75D004E340A /* LuaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18499C401C59B75D004E340A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "庄 春辉";
+				TargetAttributes = {
+					18499C471C59B75D004E340A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y3TKB7CE5Q;
+					};
+				};
+			};
+			buildConfigurationList = 18499C431C59B75D004E340A /* Build configuration list for PBXProject "LuaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18499C3F1C59B75D004E340A;
+			productRefGroup = 18499C491C59B75D004E340A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18499C471C59B75D004E340A /* LuaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18499C461C59B75D004E340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18499C7C1C59F61F004E340A /* foo1.lua in Resources */,
+				18499C5B1C59B75D004E340A /* LaunchScreen.storyboard in Resources */,
+				18499C581C59B75D004E340A /* Assets.xcassets in Resources */,
+				18499C7D1C59F61F004E340A /* out.lua in Resources */,
+				18499C561C59B75D004E340A /* Main.storyboard in Resources */,
+				18499C7F1C5A18FF004E340A /* luac.out in Resources */,
+				18499C7B1C59F61F004E340A /* foo.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11B7C9DC9EE45E6E5045E55D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37BF6A424B104829D9E952DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41693AF1477785163E779DB0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18499C441C59B75D004E340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18499C741C59F359004E340A /* LuaManager.m in Sources */,
+				18499C531C59B75D004E340A /* ViewController.m in Sources */,
+				18499C761C59F359004E340A /* Person.m in Sources */,
+				18499C501C59B75D004E340A /* AppDelegate.m in Sources */,
+				18499C4D1C59B75D004E340A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18499C541C59B75D004E340A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18499C551C59B75D004E340A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18499C591C59B75D004E340A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18499C5A1C59B75D004E340A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18499C5D1C59B75D004E340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18499C5E1C59B75D004E340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18499C601C59B75D004E340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF13DDAEFBD45D3912A248FC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LuaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Huii.LuaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18499C611C59B75D004E340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7816D5CAA0BC4CEB9587D387 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LuaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Huii.LuaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18499C431C59B75D004E340A /* Build configuration list for PBXProject "LuaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18499C5D1C59B75D004E340A /* Debug */,
+				18499C5E1C59B75D004E340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18499C5F1C59B75D004E340A /* Build configuration list for PBXNativeTarget "LuaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18499C601C59B75D004E340A /* Debug */,
+				18499C611C59B75D004E340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18499C401C59B75D004E340A /* Project object */;
+}
